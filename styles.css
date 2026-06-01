@@ -78,12 +78,74 @@ img{
     height: 200px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #1f2937;;
+    background-color: #1f2937;
 }
 .description{
-
     text-align: center;
     margin-top: 10px;
     max-width: 200px;
 }
 
+.quote{
+    padding: 80px 20px;
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-content{
+    max-width: 760px;
+    text-align: center;
+}
+.quote p{
+    font-size: 24px;
+    line-height: 1.8;
+    color: #111827;
+    margin: 0 auto;
+    max-width: 720px;
+    font-style: italic;
+}
+.quote .author{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.accion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 860px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: rgb(13, 123, 219);
+  border-radius: 10px;
+}
+
+.llamada {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 20px;
+
+  color: white;
+  max-width: 500px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1f2937;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
